@@ -275,6 +275,7 @@ public class App extends Application {
         paneRoot.getChildren().add(brick37);
         brick37.setFill(Color.rgb(color.nextInt(256), color.nextInt(256), color.nextInt(256)));
         
+        //Colisiones de ladrillos
         Timeline animationBrick = new Timeline (
                 new KeyFrame(Duration.seconds(0.017), (ActionEvent ae) ->{
                     Shape shapeColision = Shape.intersect(circleBall, brick);
@@ -312,7 +313,231 @@ public class App extends Application {
                         brick5.setVisible(false);
                         brick5.setY(900);
                 }
+                    Shape shapeColision6 = Shape.intersect(circleBall, brick6);
+                    boolean colision6 = shapeColision6.getBoundsInLocal().isEmpty();
+                    if(colision6 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick6.setVisible(false);
+                        brick6.setY(900);
+                }
                     
+                    Shape shapeColision7 = Shape.intersect(circleBall, brick7);
+                    boolean colision7 = shapeColision7.getBoundsInLocal().isEmpty();
+                    if(colision7 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick7.setVisible(false);
+                        brick7.setY(900);
+                }
+                    Shape shapeColision8 = Shape.intersect(circleBall, brick8);
+                    boolean colision8 = shapeColision8.getBoundsInLocal().isEmpty();
+                    if(colision8 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick8.setVisible(false);
+                        brick8.setY(900);
+                }
+                    Shape shapeColision9 = Shape.intersect(circleBall, brick9);
+                    boolean colision9 = shapeColision9.getBoundsInLocal().isEmpty();
+                    if(colision9 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick9.setVisible(false);
+                        brick9.setY(900);
+                }
+                    Shape shapeColision10 = Shape.intersect(circleBall, brick10);
+                    boolean colision10 = shapeColision10.getBoundsInLocal().isEmpty();
+                    if(colision10 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick10.setVisible(false);
+                        brick10.setY(900);
+                }
+                    Shape shapeColision11 = Shape.intersect(circleBall, brick11);
+                    boolean colision11 = shapeColision11.getBoundsInLocal().isEmpty();
+                    if(colision11 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick11.setVisible(false);
+                        brick11.setY(900);
+                }
+                    Shape shapeColision12 = Shape.intersect(circleBall, brick12);
+                    boolean colision12 = shapeColision12.getBoundsInLocal().isEmpty();
+                    if(colision12 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick12.setVisible(false);
+                        brick12.setY(900);
+                }
+                    Shape shapeColision13 = Shape.intersect(circleBall, brick13);
+                    boolean colision13 = shapeColision13.getBoundsInLocal().isEmpty();
+                    if(colision13 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick13.setVisible(false);
+                        brick13.setY(900);
+                }
+                    Shape shapeColision14 = Shape.intersect(circleBall, brick14);
+                    boolean colision14 = shapeColision14.getBoundsInLocal().isEmpty();
+                    if(colision14 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick14.setVisible(false);
+                        brick14.setY(900);
+                }
+                    Shape shapeColision15 = Shape.intersect(circleBall, brick15);
+                    boolean colision15 = shapeColision15.getBoundsInLocal().isEmpty();
+                    if(colision15 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick15.setVisible(false);
+                        brick15.setY(900);
+                }
+                    Shape shapeColision16 = Shape.intersect(circleBall, brick16);
+                    boolean colision16 = shapeColision16.getBoundsInLocal().isEmpty();
+                    if(colision16 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick16.setVisible(false);
+                        brick16.setY(900);
+                }
+                    Shape shapeColision17 = Shape.intersect(circleBall, brick17);
+                    boolean colision17 = shapeColision17.getBoundsInLocal().isEmpty();
+                    if(colision17 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick17.setVisible(false);
+                        brick17.setY(900);
+                }
+                    Shape shapeColision18 = Shape.intersect(circleBall, brick18);
+                    boolean colision18 = shapeColision18.getBoundsInLocal().isEmpty();
+                    if(colision18 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick18.setVisible(false);
+                        brick18.setY(900);
+                }
+                    Shape shapeColision19 = Shape.intersect(circleBall, brick19);
+                    boolean colision19 = shapeColision19.getBoundsInLocal().isEmpty();
+                    if(colision19 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick19.setVisible(false);
+                        brick19.setY(900);
+                }
+                    Shape shapeColision20 = Shape.intersect(circleBall, brick20);
+                    boolean colision20 = shapeColision20.getBoundsInLocal().isEmpty();
+                    if(colision20 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick20.setVisible(false);
+                        brick20.setY(900);
+                }
+                    Shape shapeColision21 = Shape.intersect(circleBall, brick21);
+                    boolean colision21 = shapeColision21.getBoundsInLocal().isEmpty();
+                    if(colision21 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick21.setVisible(false);
+                        brick21.setY(900);
+                }
+                    Shape shapeColision22 = Shape.intersect(circleBall, brick22);
+                    boolean colision22 = shapeColision22.getBoundsInLocal().isEmpty();
+                    if(colision22 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick22.setVisible(false);
+                        brick22.setY(900);
+                }
+                    Shape shapeColision23 = Shape.intersect(circleBall, brick23);
+                    boolean colision23 = shapeColision23.getBoundsInLocal().isEmpty();
+                    if(colision23 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick23.setVisible(false);
+                        brick23.setY(900);
+                }
+                    Shape shapeColision24 = Shape.intersect(circleBall, brick24);
+                    boolean colision24 = shapeColision24.getBoundsInLocal().isEmpty();
+                    if(colision24 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick24.setVisible(false);
+                        brick24.setY(900);
+                }
+                    Shape shapeColision25 = Shape.intersect(circleBall, brick25);
+                    boolean colision25 = shapeColision25.getBoundsInLocal().isEmpty();
+                    if(colision25 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick25.setVisible(false);
+                        brick25.setY(900);
+                }
+                    Shape shapeColision26 = Shape.intersect(circleBall, brick26);
+                    boolean colision26 = shapeColision26.getBoundsInLocal().isEmpty();
+                    if(colision26 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick26.setVisible(false);
+                        brick26.setY(900);
+                }
+                    Shape shapeColision27 = Shape.intersect(circleBall, brick27);
+                    boolean colision27 = shapeColision27.getBoundsInLocal().isEmpty();
+                    if(colision27 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick27.setVisible(false);
+                        brick27.setY(900);
+                }
+                    Shape shapeColision28 = Shape.intersect(circleBall, brick28);
+                    boolean colision28 = shapeColision28.getBoundsInLocal().isEmpty();
+                    if(colision28 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick28.setVisible(false);
+                        brick28.setY(900);
+                }
+                    Shape shapeColision29 = Shape.intersect(circleBall, brick29);
+                    boolean colision29 = shapeColision29.getBoundsInLocal().isEmpty();
+                    if(colision29 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick29.setVisible(false);
+                        brick29.setY(900);
+                }
+                    Shape shapeColision30 = Shape.intersect(circleBall, brick30);
+                    boolean colision30 = shapeColision30.getBoundsInLocal().isEmpty();
+                    if(colision30 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick30.setVisible(false);
+                        brick30.setY(900);
+                }
+                    Shape shapeColision31 = Shape.intersect(circleBall, brick31);
+                    boolean colision31 = shapeColision31.getBoundsInLocal().isEmpty();
+                    if(colision31 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick31.setVisible(false);
+                        brick31.setY(900);
+                }
+                    Shape shapeColision32 = Shape.intersect(circleBall, brick32);
+                    boolean colision32 = shapeColision32.getBoundsInLocal().isEmpty();
+                    if(colision32 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick32.setVisible(false);
+                        brick32.setY(900);
+                }
+                    Shape shapeColision33 = Shape.intersect(circleBall, brick33);
+                    boolean colision33 = shapeColision33.getBoundsInLocal().isEmpty();
+                    if(colision33 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick33.setVisible(false);
+                        brick33.setY(900);
+                }
+                    Shape shapeColision34 = Shape.intersect(circleBall, brick34);
+                    boolean colision34 = shapeColision34.getBoundsInLocal().isEmpty();
+                    if(colision34 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick34.setVisible(false);
+                        brick34.setY(900);
+                }
+                    Shape shapeColision35 = Shape.intersect(circleBall, brick35);
+                    boolean colision35 = shapeColision35.getBoundsInLocal().isEmpty();
+                    if(colision35 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick35.setVisible(false);
+                        brick35.setY(900);
+                }
+                    Shape shapeColision36 = Shape.intersect(circleBall, brick36);
+                    boolean colision36 = shapeColision36.getBoundsInLocal().isEmpty();
+                    if(colision36 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick36.setVisible(false);
+                        brick36.setY(900);
+                }
+                    Shape shapeColision37 = Shape.intersect(circleBall, brick37);
+                    boolean colision37 = shapeColision37.getBoundsInLocal().isEmpty();
+                    if(colision37 == false) {
+                        ballCurrentSpeedY = 3;
+                        brick37.setVisible(false);
+                        brick37.setY(900);
+                }
                     
                 }
         ));
